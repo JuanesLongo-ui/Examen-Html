@@ -1,0 +1,62 @@
+/* Footer */
+footer {
+    background-color: #bbbfbf;
+    padding: 40px;
+}
+
+/* Contenedor */
+.lab-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Columnas */
+.lab-column {
+    width: 30%;
+}
+
+/* Laboratorio Clínico, Pacientes y Contacto */
+.lab-column h3 {
+    color: #5dade2;
+}
+
+/* Enlaces de Pacientes */
+.lab-column a {
+    color: #0c0e0f;
+    text-decoration: none;
+}
+
+/* Nombre, Correo, Motivo y Mensaje */
+.lab-column input,
+.lab-column select,
+.lab-column textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #87ceeb;
+    background-color: #ffffff;
+}
+
+/* Enviar */
+.lab-column button {
+    background-color: #5dade2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Parte inferior */
+.lab-bottom {
+    background-color: #dff3fb;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+.lab-column h3 {
+    font-size: 28px;
+}
