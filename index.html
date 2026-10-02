@@ -15,10 +15,71 @@
 
     <main></main>
 
-    <footer></footer>
+    <footer>
+          <div class="lab-container">
     
+    <!-- Columna 1: Informacion -->
+    <div class="lab-column">
+      <h3>Laboratorio Clinico</h3>
+      <p> Sena lad.</p>
+      <p>Avenida. Principal #123</p>
+      <p>Telefono: 3122163646</p>
+    </div>
+
+    <!-- Columna 2: Servicios -->
+    <div class="lab-column">
+      <h3>Pacientes</h3>
+      <ul>
+        <li><a href="#">Consulta de Resultados</a></li>
+        <li><a href="#">Catalogo de Pruebas</a></li>
+        <li><a href="#">Servicio a Domicilio</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 3: Contacto -->
+    <div class="lab-column">
+      <h3>Contacto</h3>
+      <form action="#" method="POST">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div>
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        
+        <div>
+          <label for="motivo">Motivo:</label>
+          <select id="motivo" name="motivo" required>
+            <option value="">Seleccione una opcion</option>
+            <option value="analisis">Analisis Clinico</option>
+            <option value="cotizacion">Cotizacion</option>
+          </select>
+        </div>
+        
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="2" required></textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="lab-bottom">
+    <p> 2026 Laboratorio Clinico. Sena sad.</p>
+  </div>
+
+    </footer>
+   
+
 </body>
 </html>
+
 
 
 
